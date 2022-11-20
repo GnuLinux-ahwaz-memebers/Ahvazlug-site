@@ -1,0 +1,29 @@
+/*You have to import your fonts here*/
+@font-face {
+  font-family: 'Shabnam';
+  src:
+    url('../fonts/Shabnam/Shabnam.eot?#') format('eot'),
+    url('../fonts/Shabnam/Shabnam.ttf') format('truetype'),
+    url('../fonts/Shabnam/Shabnam.woff') format('woff');
+}
+@font-face {
+  font-family: 'Vazir-light';
+  src:
+    url('../fonts/Vazir-light/Vazir-Light.eot?#') format('eot'),
+    url('../fonts/Vazir-light/Vazir-Light.ttf') format('truetype'),
+    url('../fonts/Vazir-light/Vazir-Light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Vazir-medium';
+  src:
+    url('../fonts/Vazir-medium/Vazir-Medium.eot?#') format('eot'),
+    url('../fonts/Vazir-medium/Vazir-Medium.ttf') format('truetype'),
+    url('../fonts/Vazir-medium/Vazir-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Vazir-bold';
+  src:
+    url('../fonts/Vazir-bold/Vazir-Bold.eot?#') format('eot'),
+    url('../fonts/Vazir-bold/Vazir-Bold.ttf') format('truetype'),
+    url('../fonts/Vazir-bold/Vazir-Bold.woff') format('woff');
+}

@@ -1,0 +1,149 @@
+body{
+    font-family: 'Vazir-light';
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+}
+h1{
+    font-size: 40px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Vazir-medium';
+}
+header{
+    background: url('../images/Polish_1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+header>img{
+    transition: 0.5s linear;
+    transform: scale(1,1);
+    display: block;
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+}
+header>img:hover{
+    transition: 0.3s linear;
+    transform: scale(1.1,1.1);
+    cursor: pointer;
+    z-index: 999;
+}
+header>h1{
+    margin-top: 3%;
+}
+main{
+    text-align: center;
+    margin: 2% 0 0 0;
+    padding: 20px;
+}
+main>p{
+    font-size: 23px;
+    margin: 0 35px 0 35px;
+    text-align: justify;
+}
+main>div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+main>div>img{
+    transition: 0.2s ease;
+    transform: scale(1,1);
+    width: 84px;
+    margin: 0 10px 0 10px;
+  }
+main>div>img:hover{
+    transition: 0.3 linear;
+    transform: scale(1.2,1.2);
+    z-index: 999;
+    cursor: pointer;
+}
+.free_software{
+    background: #e65c00;
+    text-align: center;
+    padding: 20px;
+    margin: 0 3% 1% 3%;
+    color: #fff;
+    border-radius: 5px;
+}
+.free_software>img{
+    margin: 1% 0 0 0;
+    cursor: pointer;
+    width: 25%;
+}
+.free_software>p{
+    text-align: justify;
+    font-size: 20px;
+}
+.meetups{
+    background: #595959;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 3% 1% 3%;
+    padding: 20px;
+    border-radius: 5px;
+}
+.meetups>h1{
+    margin: 20px 0 5px 0;
+}
+.meetups>p{
+    font-size: 23px;
+    margin: 5px 0 20px 0;
+}
+.meetups a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.meetups a:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+.openstreetmap{
+    min-width: 80%;
+    max-width: 80%;
+    height: 480px;
+    border-radius: 10px;
+}
+nav{
+    background: #111111;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: baseline;
+}
+nav a{
+    transition: 0.3s linear;
+    color: #ffffff;
+    border-bottom: 1px solid #111111;
+    opacity: 0.5;
+    text-decoration: none;
+    margin: 0 0.5% 0 0.5%;
+    font-size: 18px;
+}
+nav a:hover{
+    border-bottom: 1px solid #ffffff;
+    transition: 0.3s linear;
+    opacity: 1;
+}
+footer{
+    background: #000000;
+    color: #888888;
+    padding: 20px;
+    text-align: center;
+}
