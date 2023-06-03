@@ -1,10 +1,10 @@
 # Ahvaz Linux Users Group official website
 
-If you want to contribute in Izeh LUG website you have to:
+If you want to contribute in Ahvaz LUG website you have to:
 
 - Fork this project
 - Commit to the project and push your commits to your fork
-- Send a merge request to the [maintainer](https://github.com/ahvazlug)
+- Send a merge request to the [maintainer](https://github.com/GnuLinux-ahwaz-memebers/Ahvazlug-site)
 
 # How to reach AhvazLUG:
 
